@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Career Report</title>
+  <style>
+    body{font-family:system-ui;line-height:1.5;margin:24px}
+    h1{font-size:20px;margin-bottom:8px}
+    h2{font-size:16px;margin-top:16px}
+    .section{margin-top:12px}
+    .pill{display:inline-block;padding:4px 8px;background:#eef;border-radius:12px;margin:2px}
+  </style>
+</head>
+<body>
+  <h1>Career Report</h1>
+  <div>Name: {{ name }}</div>
+  <div>Email: {{ email }}</div>
+  <div class="section">Score: {{ score }}</div>
+  <div class="section">
+    <h2>Strengths</h2>
+    {% for s in strengths %}<span class="pill">{{ s }}</span>{% endfor %}
+  </div>
+  <div class="section">
+    <h2>Improvements</h2>
+    {% for i in improvements %}<span class="pill">{{ i }}</span>{% endfor %}
+  </div>
+  <div class="section">
+    <h2>Recommended Roles</h2>
+    {% for r in job_roles %}<div>{{ r }}</div>{% endfor %}
+  </div>
+  <div class="section">
+    <h2>Skills To Learn</h2>
+    {% for s in skills_to_learn %}<span class="pill">{{ s }}</span>{% endfor %}
+  </div>
+  <div class="section">
+    <h2>Profile</h2>
+    <div>Education: {{ education_level }}</div>
+    <div>Skills: {{ skills }}</div>
+    <div>Interests: {{ interests }}</div>
+    <div>Bio: {{ bio }}</div>
+  </div>
+</body>
+</html>

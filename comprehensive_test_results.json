@@ -1,0 +1,102 @@
+{
+  "timestamp": "2025-11-22 18:37:55",
+  "tests": [
+    {
+      "name": "System Health",
+      "status": "PASS",
+      "details": "Status: healthy",
+      "timestamp": "2025-11-22 18:37:59"
+    },
+    {
+      "name": "User Registration",
+      "status": "PASS",
+      "details": "User: test_user_1763816875@example.com",
+      "timestamp": "2025-11-22 18:38:01"
+    },
+    {
+      "name": "User Login",
+      "status": "PASS",
+      "details": "Token generated",
+      "timestamp": "2025-11-22 18:38:04"
+    },
+    {
+      "name": "Profile Creation",
+      "status": "PASS",
+      "details": "Profile created successfully",
+      "timestamp": "2025-11-22 18:38:06"
+    },
+    {
+      "name": "Profile Retrieval",
+      "status": "PASS",
+      "details": "Education: Bachelor's Degree",
+      "timestamp": "2025-11-22 18:38:08"
+    },
+    {
+      "name": "Career Score",
+      "status": "PASS",
+      "details": "Score: 3/100",
+      "timestamp": "2025-11-22 18:38:10"
+    },
+    {
+      "name": "Job Recommendations",
+      "status": "PASS",
+      "details": "Found 0 recommendations",
+      "timestamp": "2025-11-22 18:38:12"
+    },
+    {
+      "name": "AI Recommendations",
+      "status": "PASS",
+      "details": "AI recommendations generated",
+      "timestamp": "2025-11-22 18:38:14"
+    },
+    {
+      "name": "Document Upload",
+      "status": "PASS",
+      "details": "Document uploaded successfully",
+      "timestamp": "2025-11-22 18:38:16"
+    },
+    {
+      "name": "OCR Processing",
+      "status": "FAIL",
+      "details": "unsupported format string passed to NoneType.__format__",
+      "timestamp": "2025-11-22 18:38:18"
+    },
+    {
+      "name": "Skill Extraction",
+      "status": "PASS",
+      "details": "Extracted 0 skills",
+      "timestamp": "2025-11-22 18:38:20"
+    },
+    {
+      "name": "Report Generation",
+      "status": "FAIL",
+      "details": "HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=30)",
+      "timestamp": "2025-11-22 18:38:52"
+    },
+    {
+      "name": "Journey Status",
+      "status": "PASS",
+      "details": "Stage: 1, Completion: 55.0%",
+      "timestamp": "2025-11-22 18:38:55"
+    },
+    {
+      "name": "KB Upload",
+      "status": "PASS",
+      "details": "Knowledge base uploaded successfully",
+      "timestamp": "2025-11-22 18:39:04"
+    },
+    {
+      "name": "KB Search",
+      "status": "FAIL",
+      "details": "'list' object has no attribute 'get'",
+      "timestamp": "2025-11-22 18:39:06"
+    }
+  ],
+  "summary": {
+    "total": 15,
+    "passed": 12,
+    "failed": 3,
+    "skipped": 0,
+    "success_rate": "80.0%"
+  }
+}

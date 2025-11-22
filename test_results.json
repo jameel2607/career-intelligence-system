@@ -1,0 +1,89 @@
+{
+  "timestamp": "2025-11-22T17:01:24.203013",
+  "tests": [
+    {
+      "test": "System Status",
+      "status": "PASS",
+      "details": "Status: healthy",
+      "timestamp": "2025-11-22T17:01:28.314623"
+    },
+    {
+      "test": "User Registration",
+      "status": "PASS",
+      "details": "User created: testuser_1763811089@example.com",
+      "timestamp": "2025-11-22T17:01:31.623479"
+    },
+    {
+      "test": "User Login",
+      "status": "PASS",
+      "details": "Token obtained: eyJhbGciOiJIUzI1NiIs...",
+      "timestamp": "2025-11-22T17:01:34.931105"
+    },
+    {
+      "test": "Profile Creation",
+      "status": "PASS",
+      "details": "Profile created successfully",
+      "timestamp": "2025-11-22T17:01:38.011620"
+    },
+    {
+      "test": "Profile Retrieval",
+      "status": "PASS",
+      "details": "Profile retrieved: Bachelor's Degree, 2.0 years exp",
+      "timestamp": "2025-11-22T17:01:41.043323"
+    },
+    {
+      "test": "Career Readiness Score",
+      "status": "PASS",
+      "details": "Score: 4/100, Confidence: 0.48",
+      "timestamp": "2025-11-22T17:01:44.852065"
+    },
+    {
+      "test": "Job Recommendations",
+      "status": "PASS",
+      "details": "Found 3 job roles, 3 skills to learn",
+      "timestamp": "2025-11-22T17:01:47.937908"
+    },
+    {
+      "test": "Job Recommendations",
+      "status": "FAIL",
+      "details": "'str' object has no attribute 'get'",
+      "timestamp": "2025-11-22T17:01:47.937908"
+    },
+    {
+      "test": "AI Recommendations",
+      "status": "PASS",
+      "details": "Generated 5 recommendations",
+      "timestamp": "2025-11-22T17:01:50.978092"
+    },
+    {
+      "test": "Report Generation",
+      "status": "PASS",
+      "details": "Report generated: None",
+      "timestamp": "2025-11-22T17:03:21.467494"
+    },
+    {
+      "test": "Knowledge Base Query",
+      "status": "FAIL",
+      "details": "Status: 404",
+      "timestamp": "2025-11-22T17:03:24.518939"
+    },
+    {
+      "test": "Profile Update",
+      "status": "PASS",
+      "details": "Profile updated successfully",
+      "timestamp": "2025-11-22T17:03:27.586639"
+    },
+    {
+      "test": "Updated Career Score",
+      "status": "PASS",
+      "details": "New score after profile update: 4/100",
+      "timestamp": "2025-11-22T17:03:30.738375"
+    }
+  ],
+  "summary": {
+    "total": 13,
+    "passed": 11,
+    "failed": 2,
+    "success_rate": "84.6%"
+  }
+}
